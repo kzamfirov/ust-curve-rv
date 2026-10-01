@@ -1,0 +1,41 @@
+{
+  "sample": "2006-02-09 to 2026-09-29",
+  "days": 5164,
+  "explained_variance": {
+    "PC1 level": 0.845,
+    "PC2 slope": 0.1102,
+    "PC3 curvature": 0.024
+  },
+  "hedge_test": {
+    "PCA-weighted (walk-forward)": {
+      "beta_level": -0.029,
+      "beta_slope": 0.081,
+      "R2_level_slope": 0.043,
+      "ann_vol_bp": 24.512
+    },
+    "50/50 DV01": {
+      "beta_level": 0.146,
+      "beta_slope": 0.057,
+      "R2_level_slope": 0.262,
+      "ann_vol_bp": 25.101
+    }
+  },
+  "corr_z_vs_future_fly_change": {
+    "1d": -0.037,
+    "5d": 0.003,
+    "20d": 0.089,
+    "60d": 0.212
+  },
+  "breakeven_half_spread_bp": 0.023,
+  "cost_sensitivity_sharpe": {
+    "0.0": 0.03,
+    "0.1": -0.1,
+    "0.25": -0.29,
+    "0.5": -0.61
+  },
+  "half_life_full_sample_days": 443.0,
+  "half_life_median_within_year_days": 32.0,
+  "grid_share_positive_net": 0.0,
+  "grid_median_sharpe_gross": 0.2,
+  "grid_median_sharpe_net": -0.24
+}

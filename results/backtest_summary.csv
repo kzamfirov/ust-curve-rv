@@ -1,0 +1,4 @@
+,start,end,total_pnl_bp,ann_pnl_bp,ann_vol_bp,sharpe,max_drawdown_bp,trades,hit_rate,avg_hold_days,time_in_market,price_pnl_bp,carry_roll_pnl_bp,costs_bp
+PCA walk-forward (base),2008-03-03,2026-09-29,-99.9,-5.4,18.5,-0.29,-130.7,94,0.51,29.4,0.59,-46.9,56.9,109.9
+PCA in-sample (look-ahead!),2008-03-03,2026-09-29,-27.6,-1.5,16.3,-0.09,-85.2,84,0.55,31.7,0.58,20.3,43.0,90.8
+50/50 DV01 fly,2008-03-03,2026-09-29,-18.3,-1.0,17.2,-0.06,-56.8,78,0.62,28.9,0.49,51.5,8.7,78.5
